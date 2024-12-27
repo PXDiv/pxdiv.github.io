@@ -1,0 +1,45 @@
+The Mundana Jekyll Theme is a free, Medium-styled theme designed for Jekyll, a static site generator. It's particularly well-suited for personal blogs and portfolios, making it a solid choice for showcasing your game design projects.
+
+Key Features of Mundana:
+
+    Responsive Design: Ensures your site looks great on all devices.
+    Bootstrap 4 Integration: Built with the latest version of Bootstrap for modern design elements.
+    SEO Optimization: Structured to enhance search engine visibility.
+    Disqus Comments Integration: Facilitates reader engagement through comments.
+    Google Analytics Support: Allows you to track visitor interactions.
+    Social Sharing Features: Enables easy sharing of your content across platforms.
+
+Setting Up Mundana on GitHub Pages:
+
+    Fork the Repository: Click the "Fork" button on the Mundana GitHub page to create a copy under your GitHub account.
+
+    Clone the Repository Locally: Use the following command, replacing YOUR-USERNAME with your GitHub username:
+
+git clone https://github.com/YOUR-USERNAME/mundana-theme-jekyll.git
+
+Navigate to the Project Directory:
+
+cd mundana-theme-jekyll
+
+Install Dependencies: Ensure you have Ruby and Bundler installed. Then, run:
+
+bundle install
+
+Configure the Site: Edit the _config.yml file to personalize your site's settings, such as title, description, and social media links.
+
+Run the Site Locally: Preview your site with:
+
+    bundle exec jekyll serve
+
+    Access it at http://localhost:4000.
+
+    Deploy to GitHub Pages: Push your changes to your GitHub repository. In the repository settings, navigate to the "Pages" section and set the source to the master or main branch.
+
+    Connect Your Custom Domain: In the "Pages" settings, specify your custom domain. Ensure your domain's DNS settings have a CNAME record pointing to YOUR-USERNAME.github.io.
+
+Additional Resources:
+
+    Live Demo: Experience the theme in action here.
+    Detailed Documentation: For more comprehensive instructions, refer to the official documentation.
+
+By following these steps, you can effectively set up a professional-looking website to display your game design portfolio using the Mundana Jekyll Theme on GitHub Pages.
